@@ -1,0 +1,51 @@
+body{
+    background-color: #1d1b1b;
+}
+h1{
+    color: rgb(0, 0, 0);
+    background-color: rgb(133, 132, 129);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pic{
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 1000px;
+    overflow: hidden;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+  
+
+}
+
+h2{
+color: rgb(96, 95, 95);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 10vh;
+font-size: 50px;
+display: flex;
+justify-content: center;
+margin: 60px;
+}
+#contents{
+    color: rgb(96, 95, 95);
+    font-weight:4vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 30px;
+    margin: 6px;
+    padding-right: 1000px;
+}
+.ig{
+    width: 20px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+    display: block; /* Ensures the logo is displayed as a block element */
+    background-image: url('instagram-logo.png'); /* Replace 'instagram-logo.png' with the actual path to your logo image */
+    background-size: cover; /* Scales the logo to cover the entire element */
+    background-repeat: no-repeat; /* Prevents the logo from repeating */
+    text-decoration: none; /* Removes any underlines if used within a link */
+    
+}
+
+
